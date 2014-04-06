@@ -1,0 +1,7 @@
+[home_DarkPlayer_Pipelight]
+name=Pipelight (Fedora_19)
+type=rpm-md
+baseurl=http://download.opensuse.org/repositories/home:/DarkPlayer:/Pipelight/Fedora_19/
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/home:/DarkPlayer:/Pipelight/Fedora_19/repodata/repomd.xml.key
+enabled=1

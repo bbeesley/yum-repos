@@ -1,0 +1,5 @@
+[bitcasa]
+name=bitcasa
+baseurl=http://dist.bitcasa.com/release/yum
+gpgcheck=1
+gpgkey=http://dist.bitcasa.com/release/bitcasa-releases.gpg.key
