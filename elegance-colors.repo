@@ -1,0 +1,7 @@
+[home_satya164_elegance-colors]
+name=Elegance Colors Gnome Shell theme (Fedora_20)
+type=rpm-md
+baseurl=http://download.opensuse.org/repositories/home:/satya164:/elegance-colors/Fedora_20/
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/home:/satya164:/elegance-colors/Fedora_20/repodata/repomd.xml.key
+enabled=1

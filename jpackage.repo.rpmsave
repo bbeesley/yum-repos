@@ -1,0 +1,33 @@
+# Be sure to enable the distro specific repository for your distro below:
+# - jpackage-fc for Fedora Core
+# - jpackage-rhel for Red Hat Enterprise Linux and derivatives
+
+
+[jpackage-generic-5.0]
+name=JPackage (free), generic
+#baseurl=http://mirrors.dotsrc.org/jpackage/5.0/generic/free
+mirrorlist=http://www.jpackage.org/mirrorlist.php?dist=generic&type=free&release=5.0
+failovermethod=priority
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-jpackage
+enabled=1
+priority=10
+
+[jpackage-generic-5.0-updates]
+name=JPackage (free), generic updates
+#baseurl=http://mirrors.dotsrc.org/jpackage/5.0-updates/generic/free
+mirrorlist=http://www.jpackage.org/mirrorlist.php?dist=generic&type=free&release=5.0-updates
+failovermethod=priority
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-jpackage
+enabled=1
+priority=10
+
+[jpackage-generic-5.0-devel]
+name=JPackage (free), generic
+baseurl=http://mirrors.dotsrc.org/jpackage/5.0/generic/devel
+failovermethod=priority
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-jpackage
+enabled=0
+priority=10

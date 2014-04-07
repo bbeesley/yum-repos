@@ -1,0 +1,5 @@
+[brackets]
+name=Brackets for Fedora 20 x86 64
+baseurl=http://my.craftx.biz/repo/Fedora/20/x86_64/
+enabled=1
+gpgcheck=0
