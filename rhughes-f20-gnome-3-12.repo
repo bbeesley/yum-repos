@@ -12,4 +12,4 @@ baseurl=http://copr-be.cloud.fedoraproject.org/results/rhughes/f20-gnome-3-12/fe
 skip_if_unavailable=True
 gpgcheck=0
 cost=800
-enabled=1
+enabled=0

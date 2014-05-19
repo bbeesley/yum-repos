@@ -1,5 +1,5 @@
 [PlexHTRepo]
 name=PlexHTRepo
 baseurl=http://repo.markwalker.dk/plexht/fc20/$basearch/
-enabled=1
+enabled=0
 gpgcheck=0
